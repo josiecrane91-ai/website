@@ -41,7 +41,9 @@ body {
     font-size: var(--font-size-base);
     line-height: 1.6;
     color: var(--color-text);
-    background-color: var(--color-bg);
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 25%, #f5f3ff 50%, #fef3c7 75%, #fef3c7 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -243,7 +245,7 @@ section h2 {
 
 /* ===== Research Section ===== */
 .research {
-    background-color: var(--color-bg);
+    background-color: transparent;
 }
 
 .research-grid {
@@ -335,7 +337,7 @@ section h2 {
 
 /* ===== Contact Section ===== */
 .contact {
-    background-color: var(--color-bg);
+    background-color: transparent;
 }
 
 .contact-intro {
